@@ -25,7 +25,6 @@ class Country(Model):
                          help_text=_("Enter Country Name. e.g. United States"))
 
     class Meta:
-        db_table = 'simu_country'
         app_label = _('prefix_country')
         verbose_name = _("Country")
         verbose_name_plural = _("Countries")
@@ -54,8 +53,7 @@ class Prefix(Model):
                                       help_text=_("Select Prefix Type"))
 
     class Meta:
-        db_table = 'simu_prefix'
-        app_label = _('prefix_country')
+        app_label = _('dialcode')
         verbose_name = _("Prefix")
         verbose_name_plural = _("Prefixes")
         ordering = ["prefix"]
