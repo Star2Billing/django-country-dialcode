@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.conf.urls.defaults import *
 from django.utils.translation import ugettext as _
 from django.db.models import *
-from prefix_country.models import *
+from country_dialcode.models import *
 
 
 class CountryAdmin(admin.ModelAdmin):

@@ -25,7 +25,7 @@ class Country(Model):
                          help_text=_("Enter Country Name. e.g. United States"))
 
     class Meta:
-        app_label = _('prefix_country')
+        db_table = 'dialcode_country'
         verbose_name = _("Country")
         verbose_name_plural = _("Countries")
 
@@ -53,7 +53,7 @@ class Prefix(Model):
                                       help_text=_("Select Prefix Type"))
 
     class Meta:
-        app_label = _('dialcode')
+        db_table = 'dialcode_prefix'
         verbose_name = _("Prefix")
         verbose_name_plural = _("Prefixes")
         ordering = ["prefix"]

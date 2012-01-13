@@ -20,7 +20,7 @@ for dirpath, dirnames, filenames in os.walk('country_dialcode'):
             pkg = pkg.replace(os.path.altsep, '.')
         packages.append(pkg)
     elif filenames:
-        prefix = dirpath[12:]
+        prefix = dirpath[len('country_dialcode')+1:] # Strip "dummyapp/" or "dummyapp\"
         for f in filenames:
             data_files.append(os.path.join(prefix, f))
 
