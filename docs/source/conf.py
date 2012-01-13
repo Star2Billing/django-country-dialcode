@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# django-audiofield documentation build configuration file, created by
-# sphinx-quickstart on Thu Dec  8 12:55:34 2011.
+# django-country-dialcode documentation build configuration file, created by
+# sphinx-quickstart on Thu Dec  8 12:55:34 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-audiofield'
-copyright = u'2011, Arezqui Belaid (Star2Billing)'
+project = u'django-country-dialcode'
+copyright = u'2012, Arezqui Belaid (Star2Billing)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'django-audiofielddoc'
+htmlhelp_basename = 'django-country-dialcodedoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -178,7 +178,7 @@ htmlhelp_basename = 'django-audiofielddoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'django-audiofield.tex', u'django-audiofield Documentation',
+  ('index', 'django-country-dialcode.tex', u'django-country-dialcode Documentation',
    u'Arezqui Belaid', 'manual'),
 ]
 
@@ -211,6 +211,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-audiofield', u'django-audiofield Documentation',
+    ('index', 'django-country-dialcode', u'django-country-dialcode Documentation',
      [u'Arezqui Belaid'], 1)
 ]

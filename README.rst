@@ -62,7 +62,7 @@ http://django-country-dialcode.readthedocs.org
 License
 =======
 
-Copyright (c) 2011 Star2Billing S.L. <info@star2billing.com>
+Copyright (c) 2012 Star2Billing S.L. <info@star2billing.com>
 
 django-country-dialcode is licensed under MIT, see `MIT-LICENSE.txt`.
 
