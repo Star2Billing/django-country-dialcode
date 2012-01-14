@@ -3,7 +3,7 @@ django-country-dialcode
 =======================
 
 
-This Django application has for purpose to provide Dial Code and Country data, to reuse quickly into your django application.
+This Django application provides Dial Code and Country data to reuse in a django application.
 
 
 Installation
