@@ -4,10 +4,10 @@
 Installation overview
 =====================
 
-.. _install-requirements:
+.. _requirements:
 
-Install requirements
-====================
+requirements
+============
 
 A requirements file stores a list of dependencies to be installed for your project/application.
 
@@ -20,8 +20,8 @@ To get started with Django-country-dialcode you must have the following installe
 
 .. _install_requirements:
 
-Install requirements
-====================
+Install requirements with PIP
+=============================
 
 Use PIP to install the dependencies listed in the requirments file,::
 
