@@ -15,7 +15,7 @@ The license is MIT.
 Overview
 ========
 
-Django-country-dialcode is a Django application which provide Dial Code and Country data and make it easy to reuse quickly into your django application 
+Django-country-dialcode is a Django application that provides country dial code data. 
 
 
 .. _usage:

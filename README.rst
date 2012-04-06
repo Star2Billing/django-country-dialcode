@@ -3,7 +3,7 @@ django-country-dialcode
 =======================
 
 
-This Django application has for purpose to provide Dial Code and Country data, to reuse quickly into your django application.
+This Django application provides Dial Code and Country data to reuse in a django application.
 
 
 Installation
@@ -62,7 +62,7 @@ http://django-country-dialcode.readthedocs.org
 License
 =======
 
-Copyright (c) 2012 Star2Billing S.L. <info@star2billing.com>
+Copyright (c) 2011-2012 Star2Billing S.L. <info@star2billing.com>
 
 django-country-dialcode is licensed under MIT, see `MIT-LICENSE.txt`.
 
