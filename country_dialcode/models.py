@@ -30,7 +30,7 @@ class Country(Model):
         verbose_name_plural = _("Countries")
 
     def __unicode__(self):
-        return "%s" % (self.countryname)
+        return "%s" % (self.countrycode)
 
 
 class Prefix(Model):
