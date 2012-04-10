@@ -16,14 +16,16 @@ class Country(Model):
     These are the countries and their country code, country prefix, name
     For instance : USA, 1, United States
     """
-    countrycode = models.CharField(max_length=240, verbose_name='Code',
-                                   help_text=_("Enter Country Code. e.g. USA"))
+    countrycode = models.CharField(max_length=240, max_length=3, 
+                                verbose_name='ISO alpha-3',
+                                help_text=_("Enter Country Code. e.g. USA - ISO alpha-3"))
+    iso2 = models.CharField(_('ISO alpha-2'), max_length=2)
     countryprefix = models.IntegerField(max_length=12,
                                    verbose_name='Prefix',
                                    help_text=_("Enter Country Prefix. e.g. 1"))
     countryname = models.CharField(max_length=240, verbose_name='Name',
                          help_text=_("Enter Country Name. e.g. United States"))
-
+    
     class Meta:
         db_table = 'dialcode_country'
         verbose_name = _("Country")
