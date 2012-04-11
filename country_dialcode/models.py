@@ -16,7 +16,7 @@ class Country(Model):
     These are the countries and their country code, country prefix, name
     For instance : USA, 1, United States
     """
-    countrycode = models.CharField(max_length=240, max_length=3, 
+    countrycode = models.CharField(max_length=3, 
                                 verbose_name='ISO alpha-3',
                                 help_text=_("Enter Country Code. e.g. USA - ISO alpha-3"))
     iso2 = models.CharField(_('ISO alpha-2'), max_length=2)
