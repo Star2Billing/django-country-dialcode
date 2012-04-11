@@ -74,7 +74,7 @@
             "countrycode": "ATA", 
             "countryname": "Antarctica", 
             "countryprefix": 672,
-	    "iso2": "AI",
+	    "iso2": "AQ",
         }, 
         "model": "country_dialcode.country", 
         "pk": 8
@@ -84,7 +84,7 @@
             "countrycode": "ATG", 
             "countryname": "Antigua And Barbuda", 
             "countryprefix": 1268,
-	    "iso2": "AI",
+	    "iso2": "AG",
         }, 
         "model": "country_dialcode.country", 
         "pk": 9
@@ -94,7 +94,7 @@
             "countrycode": "ARG", 
             "countryname": "Argentina", 
             "countryprefix": 54,
-	    "iso2": "AI",
+	    "iso2": "AR",
         }, 
         "model": "country_dialcode.country", 
         "pk": 10
@@ -104,7 +104,7 @@
             "countrycode": "ARM", 
             "countryname": "Armenia", 
             "countryprefix": 374,
-	    "iso2": "AI",
+	    "iso2": "AM",
         }, 
         "model": "country_dialcode.country", 
         "pk": 11
@@ -114,7 +114,7 @@
             "countrycode": "ABW", 
             "countryname": "Aruba", 
             "countryprefix": 297,
-	    "iso2": "AI",
+	    "iso2": "AW",
         }, 
         "model": "country_dialcode.country", 
         "pk": 12
@@ -124,7 +124,7 @@
             "countrycode": "AUS", 
             "countryname": "Australia", 
             "countryprefix": 61,
-	    "iso2": "AI",
+	    "iso2": "AU",
         }, 
         "model": "country_dialcode.country", 
         "pk": 13
@@ -134,7 +134,7 @@
             "countrycode": "AUT", 
             "countryname": "Austria", 
             "countryprefix": 43,
-	    "iso2": "AI",
+	    "iso2": "AT",
         }, 
         "model": "country_dialcode.country", 
         "pk": 14
@@ -144,7 +144,7 @@
             "countrycode": "AZE", 
             "countryname": "Azerbaijan", 
             "countryprefix": 994,
-	    "iso2": "AI",
+	    "iso2": "AZ",
         }, 
         "model": "country_dialcode.country", 
         "pk": 15
@@ -154,7 +154,7 @@
             "countrycode": "BHS", 
             "countryname": "Bahamas", 
             "countryprefix": 1242,
-	    "iso2": "AI",
+	    "iso2": "BS",
         }, 
         "model": "country_dialcode.country", 
         "pk": 16
@@ -164,7 +164,7 @@
             "countrycode": "BHR", 
             "countryname": "Bahrain", 
             "countryprefix": 973,
-	    "iso2": "AI",
+	    "iso2": "BH",
         }, 
         "model": "country_dialcode.country", 
         "pk": 17
@@ -174,7 +174,7 @@
             "countrycode": "BGD", 
             "countryname": "Bangladesh", 
             "countryprefix": 880,
-            "iso2": "AI",
+            "iso2": "BD",
         }, 
         "model": "country_dialcode.country", 
         "pk": 18
@@ -184,7 +184,7 @@
             "countrycode": "BRB", 
             "countryname": "Barbados", 
             "countryprefix": 1246,
-	    "iso2": "AI",
+	    "iso2": "BB",
         }, 
         "model": "country_dialcode.country", 
         "pk": 19
@@ -194,7 +194,7 @@
             "countrycode": "BLR", 
             "countryname": "Belarus", 
             "countryprefix": 375,
-	    "iso2": "AI",
+	    "iso2": "BY",
         }, 
         "model": "country_dialcode.country", 
         "pk": 20
@@ -204,7 +204,7 @@
             "countrycode": "BEL", 
             "countryname": "Belgium", 
             "countryprefix": 32,
-	    "iso2": "AI",
+	    "iso2": "BE
         }, 
         "model": "country_dialcode.country", 
         "pk": 21
@@ -214,7 +214,7 @@
             "countrycode": "BLZ", 
             "countryname": "Belize", 
             "countryprefix": 501,
-	    "iso2": "AI",
+	    "iso2": "BZ",
         }, 
         "model": "country_dialcode.country", 
         "pk": 22
@@ -224,7 +224,7 @@
             "countrycode": "BEN", 
             "countryname": "Benin", 
             "countryprefix": 229,
-   	    "iso2": "AI",
+   	    "iso2": "BJ",
         }, 
         "model": "country_dialcode.country", 
         "pk": 23
@@ -234,7 +234,7 @@
             "countrycode": "BMU", 
             "countryname": "Bermuda", 
             "countryprefix": 1441,
-	    "iso2": "AI",
+	    "iso2": "BM",
         }, 
         "model": "country_dialcode.country", 
         "pk": 24
@@ -244,7 +244,7 @@
             "countrycode": "BTN", 
             "countryname": "Bhutan", 
             "countryprefix": 975,
-	    "iso2": "AI",
+	    "iso2": "BT",
         }, 
         "model": "country_dialcode.country", 
         "pk": 25
@@ -254,7 +254,7 @@
             "countrycode": "BOL", 
             "countryname": "Bolivia", 
             "countryprefix": 591,
-	    "iso2": "AI",
+	    "iso2": "BO",
         }, 
         "model": "country_dialcode.country", 
         "pk": 26
@@ -264,7 +264,7 @@
             "countrycode": "BIH", 
             "countryname": "Bosnia And Herzegovina", 
             "countryprefix": 387,
-	    "iso2": "AI",
+	    "iso2": "BA",
         }, 
         "model": "country_dialcode.country", 
         "pk": 27
@@ -274,7 +274,7 @@
             "countrycode": "BWA", 
             "countryname": "Botswana", 
             "countryprefix": 267,
-	    "iso2": "AI",
+	    "iso2": "BW",
         }, 
         "model": "country_dialcode.country", 
         "pk": 28
@@ -284,7 +284,7 @@
             "countrycode": "BVT", 
             "countryname": "Bouvet Island", 
             "countryprefix": 0,
-	    "iso2": "AI",
+	    "iso2": "BV",
         }, 
         "model": "country_dialcode.country", 
         "pk": 29
@@ -294,7 +294,7 @@
             "countrycode": "BRA", 
             "countryname": "Brazil", 
             "countryprefix": 55,
-	    "iso2": "AI",
+	    "iso2": "BR",
         }, 
         "model": "country_dialcode.country", 
         "pk": 30
@@ -304,7 +304,7 @@
             "countrycode": "IOT", 
             "countryname": "British Indian Ocean Territory", 
             "countryprefix": 1284,
-	    "iso2": "AI",
+	    "iso2": "IO",
         }, 
         "model": "country_dialcode.country", 
         "pk": 31
@@ -314,7 +314,7 @@
             "countrycode": "BRN", 
             "countryname": "Brunei Darussalam", 
             "countryprefix": 673,
-	    "iso2": "AI",
+	    "iso2": "BN",
         }, 
         "model": "country_dialcode.country", 
         "pk": 32
@@ -324,7 +324,7 @@
             "countrycode": "BGR", 
             "countryname": "Bulgaria", 
             "countryprefix": 359,
-	    "iso2": "AI",
+	    "iso2": "BG",
         }, 
         "model": "country_dialcode.country", 
         "pk": 33
@@ -334,7 +334,7 @@
             "countrycode": "BFA", 
             "countryname": "Burkina Faso", 
             "countryprefix": 226,
-	    "iso2": "AI",
+	    "iso2": "BF",
         }, 
         "model": "country_dialcode.country", 
         "pk": 34
@@ -344,7 +344,7 @@
             "countrycode": "BDI", 
             "countryname": "Burundi", 
             "countryprefix": 257,
-	    "iso2": "AI",
+	    "iso2": "BI",
         }, 
         "model": "country_dialcode.country", 
         "pk": 35
@@ -354,7 +354,7 @@
             "countrycode": "KHM", 
             "countryname": "Cambodia", 
             "countryprefix": 855,
-	    "iso2": "AI",
+	    "iso2": "KH",
         }, 
         "model": "country_dialcode.country", 
         "pk": 36
@@ -364,7 +364,7 @@
             "countrycode": "CMR", 
             "countryname": "Cameroon", 
             "countryprefix": 237,
-	    "iso2": "AI",
+	    "iso2": "CM",
         }, 
         "model": "country_dialcode.country", 
         "pk": 37
@@ -374,7 +374,7 @@
             "countrycode": "CAN", 
             "countryname": "Canada", 
             "countryprefix": 1,
-	    "iso2": "AI",
+	    "iso2": "CA",
         }, 
         "model": "country_dialcode.country", 
         "pk": 38
@@ -384,7 +384,7 @@
             "countrycode": "CPV", 
             "countryname": "Cape Verde", 
             "countryprefix": 238,
-	    "iso2": "AI",
+	    "iso2": "CV",
         }, 
         "model": "country_dialcode.country", 
         "pk": 39
@@ -394,7 +394,7 @@
             "countrycode": "CYM", 
             "countryname": "Cayman Islands", 
             "countryprefix": 1345,
-	    "iso2": "AI",
+	    "iso2": "KY",
         }, 
         "model": "country_dialcode.country", 
         "pk": 40
@@ -404,7 +404,7 @@
             "countrycode": "CAF", 
             "countryname": "Central African Republic", 
             "countryprefix": 236,
-	    "iso2": "AI",
+	    "iso2": "CF",
         }, 
         "model": "country_dialcode.country", 
         "pk": 41
@@ -414,7 +414,7 @@
             "countrycode": "TCD", 
             "countryname": "Chad", 
             "countryprefix": 235,
-	    "iso2": "AI",
+	    "iso2": "TD",
         }, 
         "model": "country_dialcode.country", 
         "pk": 42
@@ -424,7 +424,7 @@
             "countrycode": "CHL", 
             "countryname": "Chile", 
             "countryprefix": 56,
-	    "iso2": "AI",
+	    "iso2": "CL",
         }, 
         "model": "country_dialcode.country", 
         "pk": 43
@@ -434,7 +434,7 @@
             "countrycode": "CHN", 
             "countryname": "China", 
             "countryprefix": 86,
-	    "iso2": "AI",
+	    "iso2": "CN",
         }, 
         "model": "country_dialcode.country", 
         "pk": 44
@@ -444,7 +444,7 @@
             "countrycode": "CXR", 
             "countryname": "Christmas Island", 
             "countryprefix": 618,
-	    "iso2": "AI",
+	    "iso2": "CX",
         }, 
         "model": "country_dialcode.country", 
         "pk": 45
@@ -454,7 +454,7 @@
             "countrycode": "CCK", 
             "countryname": "Cocos (Keeling); Islands", 
             "countryprefix": 61,
-	    "iso2": "AI",
+	    "iso2": "CC",
         }, 
         "model": "country_dialcode.country", 
         "pk": 46
@@ -464,7 +464,7 @@
             "countrycode": "COL", 
             "countryname": "Colombia", 
             "countryprefix": 57,
-	    "iso2": "AI",
+	    "iso2": "CO",
         }, 
         "model": "country_dialcode.country", 
         "pk": 47
@@ -474,7 +474,7 @@
             "countrycode": "COM", 
             "countryname": "Comoros", 
             "countryprefix": 269,
-	    "iso2": "AI",
+	    "iso2": "KM",
         }, 
         "model": "country_dialcode.country", 
         "pk": 48
@@ -484,7 +484,7 @@
             "countrycode": "COG", 
             "countryname": "Congo", 
             "countryprefix": 242,
-	    "iso2": "AI",
+	    "iso2": "CG",
         }, 
         "model": "country_dialcode.country", 
         "pk": 49
@@ -494,7 +494,7 @@
             "countrycode": "COD", 
             "countryname": "Congo, The Democratic Republic Of The", 
             "countryprefix": 243,
-	    "iso2": "AI",
+	    "iso2": "CD",
         }, 
         "model": "country_dialcode.country", 
         "pk": 50
@@ -504,7 +504,7 @@
             "countrycode": "COK", 
             "countryname": "Cook Islands", 
             "countryprefix": 682,
-	    "iso2": "AI",
+	    "iso2": "Ck",
         }, 
         "model": "country_dialcode.country", 
         "pk": 51
@@ -514,7 +514,7 @@
             "countrycode": "CRI", 
             "countryname": "Costa Rica", 
             "countryprefix": 506,
-	    "iso2": "AI",
+	    "iso2": "CR",
         }, 
         "model": "country_dialcode.country", 
         "pk": 52
@@ -524,7 +524,7 @@
             "countrycode": "CIV", 
             "countryname": "C\u00c3\u0192\u00c2\u00b4te d'Ivoire", 
             "countryprefix": 225,
-	    "iso2": "AI",
+	    "iso2": "CI",
         }, 
         "model": "country_dialcode.country", 
         "pk": 53
@@ -534,7 +534,7 @@
             "countrycode": "HRV", 
             "countryname": "Croatia", 
             "countryprefix": 385,
-	    "iso2": "AI",
+	    "iso2": "HR",
         }, 
         "model": "country_dialcode.country", 
         "pk": 54
@@ -544,7 +544,7 @@
             "countrycode": "CUB", 
             "countryname": "Cuba", 
             "countryprefix": 53,
-	    "iso2": "AI",
+	    "iso2": "CU",
         }, 
         "model": "country_dialcode.country", 
         "pk": 55
@@ -554,7 +554,7 @@
             "countrycode": "CYP", 
             "countryname": "Cyprus", 
             "countryprefix": 357,
-	    "iso2": "AI",
+	    "iso2": "CY",
         }, 
         "model": "country_dialcode.country", 
         "pk": 56
