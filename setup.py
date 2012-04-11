@@ -3,26 +3,16 @@ import os
 import sys
 import re
 
-version='0.1.0'
 
-packages, data_files = [], []
+# Compile the list of packages available, because distutils doesn't have
+# an easy way to do this.
+packages, data_files, temp_data_files, addons_data_files = [], [], [], []
+docs_data_files, resources_data_files = [], []
+
 root_dir = os.path.dirname(__file__)
 if root_dir:
     os.chdir(root_dir)
 
-for dirpath, dirnames, filenames in os.walk('country_dialcode'):
-    # Ignore dirnames that start with '.'
-    for i, dirname in enumerate(dirnames):
-        if dirname.startswith('.'): del dirnames[i]
-    if '__init__.py' in filenames:
-        pkg = dirpath.replace(os.path.sep, '.')
-        if os.path.altsep:
-            pkg = pkg.replace(os.path.altsep, '.')
-        packages.append(pkg)
-    elif filenames:
-        prefix = dirpath[len('country_dialcode')+1:] # Strip "dummyapp/" or "dummyapp\"
-        for f in filenames:
-            data_files.append(os.path.join(prefix, f))
 
 def parse_requirements(file_name):
     requirements = []
@@ -55,11 +45,11 @@ def parse_dependency_links(file_name, install_flag=False):
     return dependency_links
 
 
-install_flag=False
+install_flag = False
 if sys.argv[1] == "install":
     install_flag = True
 
-
+version='0.1.0'
 
 setup(
     name='django-country-dialcode',
@@ -69,8 +59,7 @@ setup(
     author_email='areski@gmail.com',
     url='http://github.com/Star2Billing/django-country-dialcode',
     packages=['country_dialcode'],
-    package_dir={'country_dialcode': 'country_dialcode'},
-    package_data={'country_dialcode': data_files},
+    include_package_data=True,
     download_url='https://github.com/Star2Billing/django-country-dialcode/tarball/master',
     zip_safe = False,
     entry_points={'django.apps': 'country_dialcode = country_dialcode'},

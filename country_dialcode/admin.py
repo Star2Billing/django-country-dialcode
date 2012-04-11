@@ -6,7 +6,7 @@ from country_dialcode.models import *
 
 
 class CountryAdmin(admin.ModelAdmin):
-    list_display = ('countrycode', 'countryprefix', 'countryname')
+    list_display = ('countrycode', 'iso2', 'countryprefix', 'countryname')
     search_fields = ('countryname', 'countryprefix')
     ordering = ('id', )
     list_filter = ['countryprefix', 'countrycode']
