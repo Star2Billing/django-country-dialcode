@@ -1,255 +1,260 @@
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (1, 'AFG', 93, 'Afghanistan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (2, 'ALB', 355, 'Albania');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (3, 'DZA', 213, 'Algeria');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (4, 'ASM', 684, 'American Samoa');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (5, 'AND', 376, 'Andorra');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (6, 'AGO', 244, 'Angola');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (7, 'AIA', 1264, 'Anguilla');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (8, 'ATA', 672, 'Antarctica');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (9, 'ATG', 1268, 'Antigua And Barbuda');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (10, 'ARG', 54, 'Argentina');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (11, 'ARM', 374, 'Armenia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (12, 'ABW', 297, 'Aruba');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (13, 'AUS', 61, 'Australia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (14, 'AUT', 43, 'Austria');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (15, 'AZE', 994, 'Azerbaijan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (16, 'BHS', 1242, 'Bahamas');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (17, 'BHR', 973, 'Bahrain');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (18, 'BGD', 880, 'Bangladesh');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (19, 'BRB', 1246, 'Barbados');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (20, 'BLR', 375, 'Belarus');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (21, 'BEL', 32, 'Belgium');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (22, 'BLZ', 501, 'Belize');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (23, 'BEN', 229, 'Benin');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (24, 'BMU', 1441, 'Bermuda');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (25, 'BTN', 975, 'Bhutan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (26, 'BOL', 591, 'Bolivia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (27, 'BIH', 387, 'Bosnia And Herzegovina');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (28, 'BWA', 267, 'Botswana');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (29, 'BVT', 0, 'Bouvet Island');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (30, 'BRA', 55, 'Brazil');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (31, 'IOT', 1284, 'British Indian Ocean Territory');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (32, 'BRN', 673, 'Brunei Darussalam');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (33, 'BGR', 359, 'Bulgaria');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (34, 'BFA', 226, 'Burkina Faso');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (35, 'BDI', 257, 'Burundi');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (36, 'KHM', 855, 'Cambodia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (37, 'CMR', 237, 'Cameroon');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (38, 'CAN', 1, 'Canada');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (39, 'CPV', 238, 'Cape Verde');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (40, 'CYM', 1345, 'Cayman Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (41, 'CAF', 236, 'Central African Republic');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (42, 'TCD', 235, 'Chad');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (43, 'CHL', 56, 'Chile');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (44, 'CHN', 86, 'China');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (45, 'CXR', 618, 'Christmas Island');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (46, 'CCK', 61, 'Cocos (Keeling); Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (47, 'COL', 57, 'Colombia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (48, 'COM', 269, 'Comoros');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (49, 'COG', 242, 'Congo');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (50, 'COD', 243, 'Congo, The Democratic Republic Of The');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (51, 'COK', 682, 'Cook Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (52, 'CRI', 506, 'Costa Rica');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (53, 'CIV', 225, 'CÃƒÂ´te d''Ivoire');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (54, 'HRV', 385, 'Croatia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (55, 'CUB', 53, 'Cuba');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (56, 'CYP', 357, 'Cyprus');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (57, 'CZE', 420, 'Czech Republic');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (58, 'DNK', 45, 'Denmark');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (59, 'DJI', 253, 'Djibouti');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (60, 'DMA', 1767, 'Dominica');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (61, 'DOM', 1809, 'Dominican Republic');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (62, 'ECU', 593, 'Ecuador');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (63, 'EGY', 20, 'Egypt');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (64, 'SLV', 503, 'El Salvador');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (65, 'GNQ', 240, 'Equatorial Guinea');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (66, 'ERI', 291, 'Eritrea');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (67, 'EST', 372, 'Estonia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (68, 'ETH', 251, 'Ethiopia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (69, 'FLK', 500, 'Falkland Islands (Malvinas);');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (70, 'FRO', 298, 'Faroe Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (71, 'FJI', 679, 'Fiji');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (72, 'FIN', 358, 'Finland');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (73, 'FRA', 33, 'France');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (74, 'GUF', 596, 'French Guiana');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (75, 'PYF', 594, 'French Polynesia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (76, 'ATF', 689, 'French Southern Territories');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (77, 'GAB', 241, 'Gabon');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (78, 'GMB', 220, 'Gambia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (79, 'GEO', 995, 'Georgia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (80, 'DEU', 49, 'Germany');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (81, 'GHA', 233, 'Ghana');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (82, 'GIB', 350, 'Gibraltar');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (83, 'GRC', 30, 'Greece');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (84, 'GRL', 299, 'Greenland');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (85, 'GRD', 1473, 'Grenada');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (86, 'GLP', 590, 'Guadeloupe');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (87, 'GUM', 1671, 'Guam');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (88, 'GTM', 502, 'Guatemala');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (89, 'GIN', 224, 'Guinea');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (90, 'GNB', 245, 'Guinea-Bissau');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (91, 'GUY', 592, 'Guyana');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (92, 'HTI', 509, 'Haiti');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (93, 'HMD', 0, 'Heard Island And McDonald Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (94, 'VAT', 0, 'Holy See (Vatican City State);');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (95, 'HND', 504, 'Honduras');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (96, 'HKG', 852, 'Hong Kong');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (97, 'HUN', 36, 'Hungary');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (98, 'ISL', 354, 'Iceland');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (99, 'IND', 91, 'India');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (100, 'IDN', 62, 'Indonesia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (101, 'IRN', 98, 'Iran, Islamic Republic Of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (102, 'IRQ', 964, 'Iraq');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (103, 'IRL', 353, 'Ireland');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (104, 'ISR', 972, 'Israel');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (105, 'ITA', 39, 'Italy');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (106, 'JAM', 1876, 'Jamaica');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (107, 'JPN', 81, 'Japan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (108, 'JOR', 962, 'Jordan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (109, 'KAZ', 7, 'Kazakhstan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (110, 'KEN', 254, 'Kenya');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (111, 'KIR', 686, 'Kiribati');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (112, 'PRK', 850, 'Korea, Democratic People''s Republic Of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (113, 'KOR', 82, 'Korea, Republic of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (114, 'KWT', 965, 'Kuwait');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (115, 'KGZ', 996, 'Kyrgyzstan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (116, 'LAO', 856, 'Lao People''s Democratic Republic');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (117, 'LVA', 371, 'Latvia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (118, 'LBN', 961, 'Lebanon');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (119, 'LSO', 266, 'Lesotho');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (120, 'LBR', 231, 'Liberia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (121, 'LBY', 218, 'Libyan Arab Jamahiriya');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (122, 'LIE', 423, 'Liechtenstein');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (123, 'LTU', 370, 'Lithuania');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (124, 'LUX', 352, 'Luxembourg');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (125, 'MAC', 853, 'Macao');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (126, 'MKD', 389, 'Macedonia, The Former Yugoslav Republic Of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (127, 'MDG', 261, 'Madagascar');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (128, 'MWI', 265, 'Malawi');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (129, 'MYS', 60, 'Malaysia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (130, 'MDV', 960, 'Maldives');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (131, 'MLI', 223, 'Mali');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (132, 'MLT', 356, 'Malta');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (133, 'MHL', 692, 'Marshall islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (134, 'MTQ', 596, 'Martinique');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (135, 'MRT', 222, 'Mauritania');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (136, 'MUS', 230, 'Mauritius');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (137, 'MYT', 269, 'Mayotte');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (138, 'MEX', 52, 'Mexico');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (139, 'FSM', 691, 'Micronesia, Federated States Of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (140, 'MDA', 1808, 'Moldova, Republic Of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (141, 'MCO', 377, 'Monaco');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (142, 'MNG', 976, 'Mongolia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (143, 'MSR', 1664, 'Montserrat');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (144, 'MAR', 212, 'Morocco');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (145, 'MOZ', 258, 'Mozambique');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (146, 'MMR', 95, 'Myanmar');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (147, 'NAM', 264, 'Namibia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (148, 'NRU', 674, 'Nauru');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (149, 'NPL', 977, 'Nepal');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (150, 'NLD', 31, 'Netherlands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (151, 'ANT', 599, 'Netherlands Antilles');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (152, 'NCL', 687, 'New Caledonia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (153, 'NZL', 64, 'New Zealand');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (154, 'NIC', 505, 'Nicaragua');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (155, 'NER', 227, 'Niger');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (156, 'NGA', 234, 'Nigeria');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (157, 'NIU', 683, 'Niue');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (158, 'NFK', 672, 'Norfolk Island');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (159, 'MNP', 1670, 'Northern Mariana Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (160, 'NOR', 47, 'Norway');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (161, 'OMN', 968, 'Oman');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (162, 'PAK', 92, 'Pakistan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (163, 'PLW', 680, 'Palau');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (164, 'PSE', 970, 'Palestinian Territory, Occupied');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (165, 'PAN', 507, 'Panama');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (166, 'PNG', 675, 'Papua New Guinea');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (167, 'PRY', 595, 'Paraguay');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (168, 'PER', 51, 'Peru');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (169, 'PHL', 63, 'Philippines');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (170, 'PCN', 0, 'Pitcairn');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (171, 'POL', 48, 'Poland');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (172, 'PRT', 351, 'Portugal');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (173, 'PRI', 1787, 'Puerto Rico');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (174, 'QAT', 974, 'Qatar');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (175, 'REU', 262, 'Reunion');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (176, 'ROU', 40, 'Romania');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (177, 'RUS', 7, 'Russian Federation');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (178, 'RWA', 250, 'Rwanda');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (179, 'SHN', 290, 'SaINT Helena');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (180, 'KNA', 1869, 'SaINT Kitts And Nevis');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (181, 'LCA', 1758, 'SaINT Lucia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (182, 'SPM', 508, 'SaINT Pierre And Miquelon');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (183, 'VCT', 1784, 'SaINT Vincent And The Grenadines');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (184, 'WSM', 685, 'Samoa');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (185, 'SMR', 378, 'San Marino');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (186, 'STP', 239, 'SÃƒÂ£o TomÃƒÂ© And Principe');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (187, 'SAU', 966, 'Saudi Arabia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (188, 'SEN', 221, 'Senegal');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (189, 'SYC', 248, 'Seychelles');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (190, 'SLE', 232, 'Sierra Leone');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (191, 'SGP', 65, 'Singapore');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (192, 'SVK', 421, 'Slovakia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (193, 'SVN', 386, 'Slovenia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (194, 'SLB', 677, 'Solomon Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (195, 'SOM', 252, 'Somalia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (196, 'ZAF', 27, 'South Africa');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (197, 'SGS', 0, 'South Georgia And The South Sandwich Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (198, 'ESP', 34, 'Spain');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (199, 'LKA', 94, 'Sri Lanka');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (200, 'SDN', 249, 'Sudan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (201, 'SUR', 597, 'Suriname');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (202, 'SJM', 0, 'Svalbard and Jan Mayen');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (203, 'SWZ', 268, 'Swaziland');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (204, 'SWE', 46, 'Sweden');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (205, 'CHE', 41, 'Switzerland');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (206, 'SYR', 963, 'Syrian Arab Republic');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (207, 'TWN', 886, 'Taiwan, Province Of China');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (208, 'TJK', 992, 'Tajikistan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (209, 'TZA', 255, 'Tanzania, United Republic Of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (210, 'THA', 66, 'Thailand');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (211, 'TLS', 670, 'Timor-Leste');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (212, 'TGO', 228, 'Togo');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (213, 'TKL', 690, 'Tokelau');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (214, 'TON', 676, 'Tonga');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (215, 'TTO', 1868, 'Trinidad And Tobago');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (216, 'TUN', 216, 'Tunisia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (217, 'TUR', 90, 'Turkey');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (218, 'TKM', 993, 'Turkmenistan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (219, 'TCA', 1649, 'Turks And Caicos Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (220, 'TUV', 688, 'Tuvalu');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (221, 'UGA', 256, 'Uganda');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (222, 'UKR', 380, 'Ukraine');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (223, 'ARE', 971, 'United Arab Emirates');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (224, 'GBR', 44, 'United Kingdom');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (225, 'USA', 1, 'United States');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (226, 'UMI', 0, 'United States Minor Outlying Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (227, 'URY', 598, 'Uruguay');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (228, 'UZB', 998, 'Uzbekistan');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (229, 'VUT', 678, 'Vanuatu');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (230, 'VEN', 58, 'Venezuela');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (231, 'VNM', 84, 'Vietnam');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (232, 'VGB', 1284, 'Virgin Islands, British');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (233, 'VIR', 808, 'Virgin Islands, U.S.');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (234, 'WLF', 681, 'Wallis And Futuna');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (235, 'ESH', 0, 'Western Sahara');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (236, 'YEM', 967, 'Yemen');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (237, 'YUG', 0, 'Yugoslavia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (238, 'ZMB', 260, 'Zambia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (239, 'ZWE', 263, 'Zimbabwe');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (240, 'ASC', 0, 'Ascension Island');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (241, 'DGA', 0, 'Diego Garcia');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (242, 'XNM', 0, 'Inmarsat');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (243, 'TMP', 0, 'East timor');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (244, 'AK', 0, 'Alaska');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (245, 'HI', 0, 'Hawaii');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (246, 'ALA', 35818, 'Aland Islands');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (247, 'BLM', 0, 'Saint Barthelemy');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (248, 'GGY', 441481, 'Guernsey');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (249, 'IMN', 441624, 'Isle of Man');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (250, 'JEY', 441534, 'Jersey');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (251, 'MAF', 0, 'Saint Martin');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (252, 'MNE', 382, 'Montenegro, Republic of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (253, 'SRB', 381, 'Serbia, Republic of');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (254, 'CPT', 0, 'Clipperton Island');
-INSERT INTO `dialcode_country` (`id`, `countrycode`, `countryprefix`, `countryname`) VALUES (255, 'TAA', 0, 'Tristan da Cunha');
+--
+-- Dumping data for table `dialcode_country`
+--
+
+INSERT INTO `dialcode_country` (`id`, `countrycode`, `iso2`, `countryprefix`, `countryname`) VALUES
+(1, 'AFG', 'AF', 93, 'Afghanistan'),
+(2, 'ALB', 'AL', 355, 'Albania'),
+(3, 'DZA', 'DZ', 213, 'Algeria'),
+(4, 'ASM', 'AS', 684, 'American Samoa'),
+(5, 'AND', 'AD', 376, 'Andorra'),
+(6, 'AGO', 'AO', 244, 'Angola'),
+(7, 'AIA', 'AI', 1264, 'Anguilla'),
+(8, 'ATA', 'AQ', 672, 'Antarctica'),
+(9, 'ATG', 'AG', 1268, 'Antigua And Barbuda'),
+(10, 'ARG', 'AR', 54, 'Argentina'),
+(11, 'ARM', 'AM', 374, 'Armenia'),
+(12, 'ABW', 'AW', 297, 'Aruba'),
+(13, 'AUS', 'AU', 61, 'Australia'),
+(14, 'AUT', 'AT', 43, 'Austria'),
+(15, 'AZE', 'AZ', 994, 'Azerbaijan'),
+(16, 'BHS', 'BS', 1242, 'Bahamas'),
+(17, 'BHR', 'BH', 973, 'Bahrain'),
+(18, 'BGD', 'BD', 880, 'Bangladesh'),
+(19, 'BRB', 'BB', 1246, 'Barbados'),
+(20, 'BLR', 'BY', 375, 'Belarus'),
+(21, 'BEL', 'BE', 32, 'Belgium'),
+(22, 'BLZ', 'BZ', 501, 'Belize'),
+(23, 'BEN', 'BJ', 229, 'Benin'),
+(24, 'BMU', 'BM', 1441, 'Bermuda'),
+(25, 'BTN', 'BT', 975, 'Bhutan'),
+(26, 'BOL', 'BO', 591, 'Bolivia'),
+(27, 'BIH', 'BA', 387, 'Bosnia And Herzegovina'),
+(28, 'BWA', 'BW', 267, 'Botswana'),
+(29, 'BVT', 'BV', 0, 'Bouvet Island'),
+(30, 'BRA', 'BR', 55, 'Brazil'),
+(31, 'IOT', 'IO', 1284, 'British Indian Ocean Territory'),
+(32, 'BRN', 'BN', 673, 'Brunei Darussalam'),
+(33, 'BGR', 'BG', 359, 'Bulgaria'),
+(34, 'BFA', 'BF', 226, 'Burkina Faso'),
+(35, 'BDI', 'BI', 257, 'Burundi'),
+(36, 'KHM', 'KH', 855, 'Cambodia'),
+(37, 'CMR', 'CM', 237, 'Cameroon'),
+(38, 'CAN', 'CA', 1, 'Canada'),
+(39, 'CPV', 'CV', 238, 'Cape Verde'),
+(40, 'CYM', 'KY', 1345, 'Cayman Islands'),
+(41, 'CAF', 'CF', 236, 'Central African Republic'),
+(42, 'TCD', 'TD', 235, 'Chad'),
+(43, 'CHL', 'CL', 56, 'Chile'),
+(44, 'CHN', 'CN', 86, 'China'),
+(45, 'CXR', 'CX', 618, 'Christmas Island'),
+(46, 'CCK', 'CC', 61, 'Cocos (Keeling); Islands'),
+(47, 'COL', 'CO', 57, 'Colombia'),
+(48, 'COM', 'KM', 269, 'Comoros'),
+(49, 'COG', 'CG', 242, 'Congo'),
+(50, 'COD', 'CD', 243, 'Congo, The Democratic Republic Of The'),
+(51, 'COK', 'Ck', 682, 'Cook Islands'),
+(52, 'CRI', 'CR', 506, 'Costa Rica'),
+(53, 'CIV', 'CI', 225, 'CÃƒÂ´te d''Ivoire'),
+(54, 'HRV', 'HR', 385, 'Croatia'),
+(55, 'CUB', 'CU', 53, 'Cuba'),
+(56, 'CYP', 'CY', 357, 'Cyprus'),
+(57, 'CZE', 'CZ', 420, 'Czech Republic'),
+(58, 'DNK', 'DK', 45, 'Denmark'),
+(59, 'DJI', 'DJ', 253, 'Djibouti'),
+(60, 'DMA', 'DM', 1767, 'Dominica'),
+(61, 'DOM', 'DO', 1809, 'Dominican Republic'),
+(62, 'ECU', 'EC', 593, 'Ecuador'),
+(63, 'EGY', 'EG', 20, 'Egypt'),
+(64, 'SLV', 'SV', 503, 'El Salvador'),
+(65, 'GNQ', 'GQ', 240, 'Equatorial Guinea'),
+(66, 'ERI', 'ER', 291, 'Eritrea'),
+(67, 'EST', 'EE', 372, 'Estonia'),
+(68, 'ETH', 'ET', 251, 'Ethiopia'),
+(69, 'FLK', 'FK', 500, 'Falkland Islands (Malvinas);'),
+(70, 'FRO', 'FO', 298, 'Faroe Islands'),
+(71, 'FJI', 'FJ', 679, 'Fiji'),
+(72, 'FIN', 'FI', 358, 'Finland'),
+(73, 'FRA', 'FR', 33, 'France'),
+(74, 'GUF', 'GF', 596, 'French Guiana'),
+(75, 'PYF', 'PF', 594, 'French Polynesia'),
+(76, 'ATF', 'TF', 689, 'French Southern Territories'),
+(77, 'GAB', 'GA', 241, 'Gabon'),
+(78, 'GMB', 'GM', 220, 'Gambia'),
+(79, 'GEO', 'GE', 995, 'Georgia'),
+(80, 'DEU', 'DE', 49, 'Germany'),
+(81, 'GHA', 'GH', 233, 'Ghana'),
+(82, 'GIB', 'GI', 350, 'Gibraltar'),
+(83, 'GRC', 'GR', 30, 'Greece'),
+(84, 'GRL', 'GL', 299, 'Greenland'),
+(85, 'GRD', 'GD', 1473, 'Grenada'),
+(86, 'GLP', 'GP', 590, 'Guadeloupe'),
+(87, 'GUM', 'GU', 1671, 'Guam'),
+(88, 'GTM', 'GT', 502, 'Guatemala'),
+(89, 'GIN', 'GN', 224, 'Guinea'),
+(90, 'GNB', 'GW', 245, 'Guinea-Bissau'),
+(91, 'GUY', 'GY', 592, 'Guyana'),
+(92, 'HTI', 'HT', 509, 'Haiti'),
+(93, 'HMD', 'HM', 0, 'Heard Island And McDonald Islands'),
+(94, 'VAT', 'VA', 0, 'Holy See (Vatican City State);'),
+(95, 'HND', 'HN', 504, 'Honduras'),
+(96, 'HKG', 'HK', 852, 'Hong Kong'),
+(97, 'HUN', 'HU', 36, 'Hungary'),
+(98, 'ISL', 'IS', 354, 'Iceland'),
+(99, 'IND', 'IN', 91, 'India'),
+(100, 'IDN', 'ID', 62, 'Indonesia'),
+(101, 'IRN', 'IR', 98, 'Iran, Islamic Republic Of'),
+(102, 'IRQ', 'IQ', 964, 'Iraq'),
+(103, 'IRL', 'IE', 353, 'Ireland'),
+(104, 'ISR', 'IL', 972, 'Israel'),
+(105, 'ITA', 'IT', 39, 'Italy'),
+(106, 'JAM', 'JM', 1876, 'Jamaica'),
+(107, 'JPN', 'JP', 81, 'Japan'),
+(108, 'JOR', 'JO', 962, 'Jordan'),
+(109, 'KAZ', 'KZ', 7, 'Kazakhstan'),
+(110, 'KEN', 'KE', 254, 'Kenya'),
+(111, 'KIR', 'KI', 686, 'Kiribati'),
+(112, 'PRK', 'KP', 850, 'Korea, Democratic People''s Republic Of'),
+(113, 'KOR', 'KR', 82, 'Korea, Republic of'),
+(114, 'KWT', 'KW', 965, 'Kuwait'),
+(115, 'KGZ', 'KG', 996, 'Kyrgyzstan'),
+(116, 'LAO', 'LA', 856, 'Lao People''s Democratic Republic'),
+(117, 'LVA', 'LV', 371, 'Latvia'),
+(118, 'LBN', 'LB', 961, 'Lebanon'),
+(119, 'LSO', 'LS', 266, 'Lesotho'),
+(120, 'LBR', 'LR', 231, 'Liberia'),
+(121, 'LBY', 'LY', 218, 'Libyan Arab Jamahiriya'),
+(122, 'LIE', 'LI', 423, 'Liechtenstein'),
+(123, 'LTU', 'LT', 370, 'Lithuania'),
+(124, 'LUX', 'LU', 352, 'Luxembourg'),
+(125, 'MAC', 'MO', 853, 'Macao'),
+(126, 'MKD', 'MK', 389, 'Macedonia, The Former Yugoslav Republic Of'),
+(127, 'MDG', 'MG', 261, 'Madagascar'),
+(128, 'MWI', 'MW', 265, 'Malawi'),
+(129, 'MYS', 'MY', 60, 'Malaysia'),
+(130, 'MDV', 'MV', 960, 'Maldives'),
+(131, 'MLI', 'ML', 223, 'Mali'),
+(132, 'MLT', 'MT', 356, 'Malta'),
+(133, 'MHL', 'MH', 692, 'Marshall islands'),
+(134, 'MTQ', 'MQ', 596, 'Martinique'),
+(135, 'MRT', 'MR', 222, 'Mauritania'),
+(136, 'MUS', 'MU', 230, 'Mauritius'),
+(137, 'MYT', 'YT', 269, 'Mayotte'),
+(138, 'MEX', 'MX', 52, 'Mexico'),
+(139, 'FSM', 'FM', 691, 'Micronesia, Federated States Of'),
+(140, 'MDA', 'MD', 1808, 'Moldova, Republic Of'),
+(141, 'MCO', 'MC', 377, 'Monaco'),
+(142, 'MNG', 'MN', 976, 'Mongolia'),
+(143, 'MSR', 'MS', 1664, 'Montserrat'),
+(144, 'MAR', 'MA', 212, 'Morocco'),
+(145, 'MOZ', 'MZ', 258, 'Mozambique'),
+(146, 'MMR', 'MM', 95, 'Myanmar'),
+(147, 'NAM', 'NA', 264, 'Namibia'),
+(148, 'NRU', 'NR', 674, 'Nauru'),
+(149, 'NPL', 'NP', 977, 'Nepal'),
+(150, 'NLD', 'NL', 31, 'Netherlands'),
+(151, 'ANT', 'AN', 599, 'Netherlands Antilles'),
+(152, 'NCL', 'NC', 687, 'New Caledonia'),
+(153, 'NZL', 'NZ', 64, 'New Zealand'),
+(154, 'NIC', 'NI', 505, 'Nicaragua'),
+(155, 'NER', 'NE', 227, 'Niger'),
+(156, 'NGA', 'NG', 234, 'Nigeria'),
+(157, 'NIU', 'NU', 683, 'Niue'),
+(158, 'NFK', 'NF', 672, 'Norfolk Island'),
+(159, 'MNP', 'MP', 1670, 'Northern Mariana Islands'),
+(160, 'NOR', 'NO', 47, 'Norway'),
+(161, 'OMN', 'OM', 968, 'Oman'),
+(162, 'PAK', 'PK', 92, 'Pakistan'),
+(163, 'PLW', 'PW', 680, 'Palau'),
+(164, 'PSE', 'PS', 970, 'Palestinian Territory, Occupied'),
+(165, 'PAN', 'PA', 507, 'Panama'),
+(166, 'PNG', 'PG', 675, 'Papua New Guinea'),
+(167, 'PRY', 'PY', 595, 'Paraguay'),
+(168, 'PER', 'PE', 51, 'Peru'),
+(169, 'PHL', 'PH', 63, 'Philippines'),
+(170, 'PCN', 'PN', 0, 'Pitcairn'),
+(171, 'POL', 'PL', 48, 'Poland'),
+(172, 'PRT', 'PT', 351, 'Portugal'),
+(173, 'PRI', 'PR', 1787, 'Puerto Rico'),
+(174, 'QAT', 'QA', 974, 'Qatar'),
+(175, 'REU', 'RE', 262, 'Reunion'),
+(176, 'ROU', 'RO', 40, 'Romania'),
+(177, 'RUS', 'RU', 7, 'Russian Federation'),
+(178, 'RWA', 'RW', 250, 'Rwanda'),
+(179, 'SHN', 'SH', 290, 'SaINT Helena'),
+(180, 'KNA', 'KN', 1869, 'SaINT Kitts And Nevis'),
+(181, 'LCA', 'LC', 1758, 'SaINT Lucia'),
+(182, 'SPM', 'PM', 508, 'SaINT Pierre And Miquelon'),
+(183, 'VCT', 'VC', 1784, 'SaINT Vincent And The Grenadines'),
+(184, 'WSM', 'WS', 685, 'Samoa'),
+(185, 'SMR', 'SM', 378, 'San Marino'),
+(186, 'STP', 'ST', 239, 'SÃƒÂ£o TomÃƒÂ© And Principe'),
+(187, 'SAU', 'SA', 966, 'Saudi Arabia'),
+(188, 'SEN', 'SN', 221, 'Senegal'),
+(189, 'SYC', 'SC', 248, 'Seychelles'),
+(190, 'SLE', 'SL', 232, 'Sierra Leone'),
+(191, 'SGP', 'SG', 65, 'Singapore'),
+(192, 'SVK', 'SK', 421, 'Slovakia'),
+(193, 'SVN', 'SI', 386, 'Slovenia'),
+(194, 'SLB', 'SB', 677, 'Solomon Islands'),
+(195, 'SOM', 'SO', 252, 'Somalia'),
+(196, 'ZAF', 'ZA', 27, 'South Africa'),
+(197, 'SGS', 'GS', 0, 'South Georgia And The South Sandwich Islands'),
+(198, 'ESP', 'ES', 34, 'Spain'),
+(199, 'LKA', 'LK', 94, 'Sri Lanka'),
+(200, 'SDN', 'SD', 249, 'Sudan'),
+(201, 'SUR', 'SR', 597, 'Suriname'),
+(202, 'SJM', 'SJ', 0, 'Svalbard and Jan Mayen'),
+(203, 'SWZ', 'SZ', 268, 'Swaziland'),
+(204, 'SWE', 'SE', 46, 'Sweden'),
+(205, 'CHE', 'CH', 41, 'Switzerland'),
+(206, 'SYR', 'SY', 963, 'Syrian Arab Republic'),
+(207, 'TWN', 'TW', 886, 'Taiwan, Province Of China'),
+(208, 'TJK', 'TJ', 992, 'Tajikistan'),
+(209, 'TZA', 'TZ', 255, 'Tanzania, United Republic Of'),
+(210, 'THA', 'TH', 66, 'Thailand'),
+(211, 'TLS', 'TL', 670, 'Timor-Leste'),
+(212, 'TGO', 'TG', 228, 'Togo'),
+(213, 'TKL', 'TK', 690, 'Tokelau'),
+(214, 'TON', 'TO', 676, 'Tonga'),
+(215, 'TTO', 'TT', 1868, 'Trinidad And Tobago'),
+(216, 'TUN', 'TN', 216, 'Tunisia'),
+(217, 'TUR', 'TR', 90, 'Turkey'),
+(218, 'TKM', 'TM', 993, 'Turkmenistan'),
+(219, 'TCA', 'TC', 1649, 'Turks And Caicos Islands'),
+(220, 'TUV', 'TV', 688, 'Tuvalu'),
+(221, 'UGA', 'UG', 256, 'Uganda'),
+(222, 'UKR', 'UA', 380, 'Ukraine'),
+(223, 'ARE', 'AE', 971, 'United Arab Emirates'),
+(224, 'GBR', 'GB', 44, 'United Kingdom'),
+(225, 'USA', 'US', 1, 'United States'),
+(226, 'UMI', 'UM', 0, 'United States Minor Outlying Islands'),
+(227, 'URY', 'UY', 598, 'Uruguay'),
+(228, 'UZB', 'UZ', 998, 'Uzbekistan'),
+(229, 'VUT', 'VU', 678, 'Vanuatu'),
+(230, 'VEN', 'AI', 58, 'Venezuela'),
+(231, 'VNM', 'VN', 84, 'Vietnam'),
+(232, 'VGB', 'VG', 1284, 'Virgin Islands, British'),
+(233, 'VIR', 'VI', 808, 'Virgin Islands, U.S.'),
+(234, 'WLF', 'WF', 681, 'Wallis And Futuna'),
+(235, 'ESH', 'EH', 0, 'Western Sahara'),
+(236, 'YEM', 'YE', 967, 'Yemen'),
+(237, 'YUG', 'YU', 0, 'Yugoslavia'),
+(238, 'ZMB', 'ZM', 260, 'Zambia'),
+(239, 'ZWE', 'ZW', 263, 'Zimbabwe'),
+(240, 'ASC', '', 0, 'Ascension Island'),
+(241, 'DGA', '', 0, 'Diego Garcia'),
+(242, 'XNM', '', 0, 'Inmarsat'),
+(243, 'TMP', '', 0, 'East timor'),
+(244, 'AK', 'AK', 0, 'Alaska'),
+(245, 'HI', 'HI', 0, 'Hawaii'),
+(246, 'ALA', 'AX', 35818, 'Aland Islands'),
+(247, 'BLM', 'BL', 0, 'Saint Barthelemy'),
+(248, 'GGY', 'GG', 441481, 'Guernsey'),
+(249, 'IMN', 'IM', 441624, 'Isle of Man'),
+(250, 'JEY', 'JE', 441534, 'Jersey'),
+(251, 'MAF', 'MF', 0, 'Saint Martin'),
+(252, 'MNE', 'ME', 382, 'Montenegro, Republic of'),
+(253, 'SRB', 'RS', 381, 'Serbia, Republic of'),
+(254, 'CPT', '', 0, 'Clipperton Island'),
+(255, 'TAA', '', 0, 'Tristan da Cunha');

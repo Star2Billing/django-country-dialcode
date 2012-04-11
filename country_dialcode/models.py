@@ -17,13 +17,13 @@ class Country(Model):
     For instance : USA, 1, United States
     """
     countrycode = models.CharField(max_length=3, 
-                                verbose_name='ISO alpha-3',
-                                help_text=_("Enter Country Code. e.g. USA - ISO alpha-3"))
-    iso2 = models.CharField(_('ISO alpha-2'), max_length=2)
+                                   verbose_name=_('ISO alpha-3'),
+                                   help_text=_("Enter Country Code. e.g. USA - ISO alpha-3"))
+    iso2 = models.CharField(verbose_name=_('ISO alpha-2'), max_length=2)
     countryprefix = models.IntegerField(max_length=12,
-                                   verbose_name='Prefix',
-                                   help_text=_("Enter Country Prefix. e.g. 1"))
-    countryname = models.CharField(max_length=240, verbose_name='Name',
+                                        verbose_name=_('Prefix'),
+                                        help_text=_("Enter Country Prefix. e.g. 1"))
+    countryname = models.CharField(max_length=240, verbose_name=_('Name'),
                          help_text=_("Enter Country Name. e.g. United States"))
     
     class Meta:
@@ -46,12 +46,12 @@ class Prefix(Model):
     destination = models.CharField(max_length=180,
                                    help_text=_("Enter Destination"))
     country_id = models.ForeignKey(Country, db_column="country_id", null=True,
-                                   blank=True, verbose_name="Country Code",
+                                   blank=True, verbose_name=_("Country Code"),
                                    help_text=_("Select Country"))
     carrier_name = models.CharField(max_length=180,
                                     help_text=_("Enter Carrier Name"))
     prefix_type = models.IntegerField(choices=prefix_type_list, default=1,
-                                      verbose_name='Prefix Type',
+                                      verbose_name=_('Prefix Type'),
                                       help_text=_("Select Prefix Type"))
 
     class Meta:
