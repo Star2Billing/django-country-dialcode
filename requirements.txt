@@ -1,2 +1,2 @@
 django-reusableapps==0.1.1
-git+git://github.com/Star2Billing/simu-common.git
+git+git://github.com/Star2Billing/switch2bill-common.git
