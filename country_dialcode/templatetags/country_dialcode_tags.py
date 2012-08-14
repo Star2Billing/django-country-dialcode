@@ -29,7 +29,10 @@ register.filter('iso_flag', iso_flag)
 @stringfilter
 def country_name(country_id):
     """
-    Returns a country name    
+    Returns a country name
+
+    >>> country_name(198)
+    'Spain'
     """
     try:
         obj_country = Country.objects.get(id=country_id)

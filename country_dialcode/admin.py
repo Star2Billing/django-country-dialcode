@@ -1,8 +1,5 @@
 from django.contrib import admin
-from django.conf.urls.defaults import *
-from django.utils.translation import ugettext as _
-from django.db.models import *
-from country_dialcode.models import *
+from country_dialcode.models import Country, Prefix
 
 
 class CountryAdmin(admin.ModelAdmin):
