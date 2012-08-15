@@ -3,4 +3,5 @@ global-exclude *.pyc
 recursive-include country_dialcode/utils *
 recursive-include country_dialcode/templatetags *
 recursive-include country_dialcode/fixtures *
+recursive-include country_dialcode/tests *
 
