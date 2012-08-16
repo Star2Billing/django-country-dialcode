@@ -32,7 +32,7 @@ def country_name(country_id):
     Returns a country name
 
     >>> country_name(198)
-    'Spain'
+    u'Spain'
     """
     try:
         obj_country = Country.objects.get(id=country_id)

@@ -35,7 +35,7 @@ class CountryDialcodeAdminView(BaseAuthenticatedClient):
                   'iso2': 'ES',
                   'countryprefix': '34',
                   'countryname': 'Spain',
-                  })
+                  }, follow=True)
         self.assertEqual(response.status_code, 200)
 
 
@@ -75,7 +75,7 @@ class CountryDialcodeModel(TestCase):
         self.prefix = Prefix(
             prefix=34,
             destination='Spain',
-            country_id=198,
+            country=self.country,
             carrier_name='xyz',
             prefix_type=1
         )
