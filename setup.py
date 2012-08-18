@@ -51,6 +51,7 @@ if sys.argv[1] == "install":
 
 version = '0.3.0'
 
+
 setup(
     name='django-country-dialcode',
     version=version,
@@ -58,7 +59,16 @@ setup(
     author='Belaid Arezqui',
     author_email='areski@gmail.com',
     url='http://github.com/Star2Billing/django-country-dialcode',
-    packages=['country_dialcode'],
+    packages=[
+        "country_dialcode",
+        "country_dialcode.management",
+        "country_dialcode.management.commands",
+    ],
+    package_data={
+        "": [
+            "fixtures/*",
+        ]
+    },
     include_package_data=True,
     download_url='https://github.com/Star2Billing/django-country-dialcode/tarball/master',
     zip_safe=False,
