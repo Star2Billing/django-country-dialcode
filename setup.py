@@ -49,7 +49,7 @@ install_flag = False
 if sys.argv[1] == "install":
     install_flag = True
 
-version='0.2.0'
+version = '0.3.0'
 
 setup(
     name='django-country-dialcode',
@@ -61,10 +61,10 @@ setup(
     packages=['country_dialcode'],
     include_package_data=True,
     download_url='https://github.com/Star2Billing/django-country-dialcode/tarball/master',
-    zip_safe = False,
+    zip_safe=False,
     entry_points={'django.apps': 'country_dialcode = country_dialcode'},
-    install_requires = parse_requirements('requirements.txt'),
-    dependency_links = parse_dependency_links('requirements.txt',
+    install_requires=parse_requirements('requirements.txt'),
+    dependency_links=parse_dependency_links('requirements.txt',
                                               install_flag),
     license='MIT License',
     classifiers=[
@@ -78,4 +78,3 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
 )
-
