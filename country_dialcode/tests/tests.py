@@ -70,6 +70,7 @@ class CountryDialcodeModel(TestCase):
             countryname='Spain',
         )
         self.country.save()
+        self.assertEqual(self.country.__unicode__(), u'ESP')
 
         # Prefix model
         self.prefix = Prefix(
@@ -80,6 +81,7 @@ class CountryDialcodeModel(TestCase):
             prefix_type=1
         )
         self.prefix.save()
+        self.assertEqual(self.prefix.__unicode__(), u'34')
 
     def test_country_prefix_name(self):
         self.assertEqual(self.country.countryname, "Spain")
