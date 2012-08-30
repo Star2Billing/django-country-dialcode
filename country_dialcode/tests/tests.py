@@ -11,6 +11,7 @@
 # Arezqui Belaid <info@star2billing.com>
 #
 
+from django.core.management import call_command
 from django.contrib.auth.models import User
 from django.test import TestCase
 from common.utils import BaseAuthenticatedClient
@@ -90,5 +91,9 @@ class CountryDialcodeModel(TestCase):
     def teardown(self):
         self.country.delete()
         self.prefix.delete()
+
+    def test_mgt_command(self):
+        # Test mgt command
+        call_command('load_country_dialcode')
 
 
