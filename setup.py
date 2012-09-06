@@ -49,7 +49,7 @@ install_flag = False
 if sys.argv[1] == "install":
     install_flag = True
 
-version = '0.3.0'
+version = '0.3.1'
 
 
 setup(
