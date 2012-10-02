@@ -4,17 +4,18 @@ from country_dialcode.models import Country
 
 register = template.Library()
 
+
 @stringfilter
 def iso_flag(country_id, flag_path=u''):
     """
     Returns a full path to the ISO 3166-1 alpha-2 country code flag image.
-    
+
     Example usage::
-        
+
         {{ user_profile.country_dialcode.country_id|iso_flag }}
-        
+
         {{ user_profile.country_dialcode.country_id|iso_flag:"appmedia/flags/%s.png" }}
-    
+
     """
     try:
         obj_country = Country.objects.get(id=country_id)

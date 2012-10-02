@@ -15,8 +15,8 @@ class Command(BaseCommand):
         Load country dialcode
         """
         script_directory = os.path.dirname(
-                                inspect.getfile(inspect.currentframe()))
+            inspect.getfile(inspect.currentframe()))
         fixture_file = script_directory + \
-                        '/../../fixtures/country_dialcode.json'
+            '/../../fixtures/country_dialcode.json'
         print "This fixture is going to be loaded : " + fixture_file
         call_command('loaddata', fixture_file)

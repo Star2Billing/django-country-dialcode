@@ -12,7 +12,6 @@
 #
 
 from django.core.management import call_command
-from django.contrib.auth.models import User
 from django.test import TestCase
 from common.utils import BaseAuthenticatedClient
 from country_dialcode.models import Country, Prefix
@@ -38,7 +37,6 @@ class CountryDialcodeAdminView(BaseAuthenticatedClient):
                   'countryname': 'Spain',
                   }, follow=True)
         self.assertEqual(response.status_code, 200)
-
 
     def test_admin_prefix_view_list(self):
         """Test Function to check admin prefix list"""
@@ -95,5 +93,3 @@ class CountryDialcodeModel(TestCase):
     def test_mgt_command(self):
         # Test mgt command
         call_command('load_country_dialcode')
-
-

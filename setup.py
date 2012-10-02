@@ -34,7 +34,7 @@ def parse_dependency_links(file_name, install_flag=False):
         if re.match(r'\s*-e\s+', line):
             dependency_links.append(re.sub(r'\s*-e\s+', '', line))
         if re.match(r'(\s*git)|(\s*hg)', line):
-            if install_flag == True:
+            if install_flag:
                 line_arr = line.split('/')
                 line_arr_length = len(line.split('/'))
                 pck_name = line_arr[line_arr_length - 1].split('.git')
@@ -75,7 +75,7 @@ setup(
     entry_points={'django.apps': 'country_dialcode = country_dialcode'},
     install_requires=parse_requirements('requirements.txt'),
     dependency_links=parse_dependency_links('requirements.txt',
-                                              install_flag),
+                                            install_flag),
     license='MIT License',
     classifiers=[
         'Development Status :: 4 - Beta',
