@@ -41,7 +41,7 @@ Add ``country_dialcode`` into INSTALLED_APPS in settings.py::
         ...)
 
 
-Run following commands::
+Run following commands to add the models in your database ::
 
     python manage.py syncdb
 
