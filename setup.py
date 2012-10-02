@@ -74,8 +74,7 @@ setup(
     zip_safe=False,
     entry_points={'django.apps': 'country_dialcode = country_dialcode'},
     install_requires=parse_requirements('requirements.txt'),
-    dependency_links=parse_dependency_links('requirements.txt',
-                                            install_flag),
+    dependency_links=parse_dependency_links('requirements.txt', install_flag),
     license='MIT License',
     classifiers=[
         'Development Status :: 4 - Beta',
