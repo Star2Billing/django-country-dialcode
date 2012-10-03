@@ -55,8 +55,6 @@ install_flag = False
 if sys.argv[1] == "install":
     install_flag = True
 
-version = '0.4.0'
-
 
 setup(
     name='django-country-dialcode',
