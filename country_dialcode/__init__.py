@@ -9,7 +9,7 @@
 # :license: MIT, see MIT-LICENSE.txt for more details.
 
 
-VERSION = (0, 4, 0, "")
+VERSION = (0, 4, 1, "")
 __version__ = ".".join(map(str, VERSION[0:3])) + "".join(VERSION[3:])
 __author__ = "Arezqui Belaid"
 __contact__ = "areski@gmail.com"

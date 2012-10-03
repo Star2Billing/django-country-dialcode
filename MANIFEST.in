@@ -7,3 +7,5 @@ recursive-include country_dialcode/tests *
 
 include README.rst
 include MIT-LICENSE.txt
+include requirements.txt
+
