@@ -1,7 +1,13 @@
 from setuptools import setup
 import os
+import codecs
 import sys
 import re
+from country_dialcode import __version__ as version
+
+
+def read(*parts):
+    return codecs.open(os.path.join(os.path.dirname(__file__), *parts)).read()
 
 
 # Compile the list of packages available, because distutils doesn't have
@@ -49,13 +55,14 @@ install_flag = False
 if sys.argv[1] == "install":
     install_flag = True
 
-version = '0.3.1'
+version = '0.4.0'
 
 
 setup(
     name='django-country-dialcode',
     version=version,
-    description='Application providing Dialcode and Countries code',
+    description='Django Application providing Dialcode and Countries code',
+    long_description=read('README.rst'),
     author='Belaid Arezqui',
     author_email='areski@gmail.com',
     url='http://github.com/Star2Billing/django-country-dialcode',

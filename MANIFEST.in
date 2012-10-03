@@ -5,3 +5,5 @@ recursive-include country_dialcode/templatetags *
 recursive-include country_dialcode/fixtures *
 recursive-include country_dialcode/tests *
 
+include README.rst
+include MIT-LICENSE.txt

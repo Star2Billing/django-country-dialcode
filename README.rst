@@ -40,8 +40,8 @@ In your models add the following ::
 Contributing
 ============
 
-If you've found a bug, implemented/improved a feature and think it is useful 
-then please consider contributing. Patches, pull requests or just suggestions 
+If you've found a bug, implemented/improved a feature and think it is useful
+then please consider contributing. Patches, pull requests or just suggestions
 are welcome!
 
 Source code: http://github.com/Star2Billing/django-country-dialcode
@@ -70,9 +70,5 @@ django-country-dialcode is licensed under MIT, see `MIT-LICENSE.txt`.
 Credit
 ======
 
-Django-country-dialcode is a Star2Billing-Sponsored Community Project, for more information visit 
+Django-country-dialcode is a Star2Billing-Sponsored Community Project, for more information visit
 http://www.star2billing.com  or email us at info@star2billing.com
-
-
-    
-    

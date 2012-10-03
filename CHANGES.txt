@@ -1,0 +1,15 @@
+Changelog
+=========
+
+0.4 (2012-10-03)
+------------------
+
+* Add travis.yml file
+* Improve setup.py and update manifest
+* Add MakeFile
+
+
+0.3 (2012-01-13)
+----------------
+
+* Import project
