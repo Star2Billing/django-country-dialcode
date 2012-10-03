@@ -19,6 +19,21 @@ root_dir = os.path.dirname(__file__)
 if root_dir:
     os.chdir(root_dir)
 
+for dirpath, dirnames, filenames in os.walk('country_dialcode'):
+    # Ignore dirnames that start with '.'
+    for i, dirname in enumerate(dirnames):
+        if dirname.startswith('.'):
+            del dirnames[i]
+    if '__init__.py' in filenames:
+        pkg = dirpath.replace(os.path.sep, '.')
+        if os.path.altsep:
+            pkg = pkg.replace(os.path.altsep, '.')
+        packages.append(pkg)
+    elif filenames:
+        prefix = dirpath[12:]
+        for f in filenames:
+            data_files.append(os.path.join(prefix, f))
+
 
 def parse_requirements(file_name):
     requirements = []
@@ -64,11 +79,7 @@ setup(
     author='Belaid Arezqui',
     author_email='areski@gmail.com',
     url='http://github.com/Star2Billing/django-country-dialcode',
-    packages=[
-        "country_dialcode",
-        "country_dialcode.management",
-        "country_dialcode.management.commands",
-    ],
+    packages=packages,
     package_data={
         "": [
             "fixtures/*",
@@ -77,6 +88,7 @@ setup(
     include_package_data=True,
     download_url='https://github.com/Star2Billing/django-country-dialcode/tarball/master',
     zip_safe=False,
+    package_dir={'country_dialcode': 'country_dialcode'},
     entry_points={'django.apps': 'country_dialcode = country_dialcode'},
     install_requires=parse_requirements('requirements.txt'),
     dependency_links=parse_dependency_links('requirements.txt', install_flag),
@@ -92,4 +104,3 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
 )
-
