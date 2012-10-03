@@ -1,9 +1,6 @@
 global-exclude *.pyc
 
-recursive-include country_dialcode/utils *
-recursive-include country_dialcode/templatetags *
-recursive-include country_dialcode/fixtures *
-recursive-include country_dialcode/tests *
+recursive-include country_dialcode *
 
 include README.rst
 include MIT-LICENSE.txt
