@@ -1,7 +1,7 @@
 from django import template
 from django.template.defaultfilters import stringfilter
 from country_dialcode.models import Country
-
+from country_dialcode.utils.isoflag import iso_flag as util_iso_flag
 register = template.Library()
 
 
@@ -17,12 +17,14 @@ def iso_flag(country_id, flag_path=u''):
         {{ user_profile.country_dialcode.country_id|iso_flag:"appmedia/flags/%s.png" }}
 
     """
+    if country_id == '999':
+        #Added for internal call - ie flag/phone.png
+        return util_iso_flag('telephone', flag_path)
     try:
         obj_country = Country.objects.get(id=country_id)
     except:
         return u''
-    from country_dialcode.utils.isoflag import iso_flag
-    return iso_flag(obj_country.iso2, flag_path)
+    return util_iso_flag(obj_country.iso2, flag_path)
 
 register.filter('iso_flag', iso_flag)
 
