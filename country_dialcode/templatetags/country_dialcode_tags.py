@@ -40,11 +40,11 @@ def country_name(country_id):
     """
     if country_id == '999':
         #Added for internal call - ie flag/phone.png
-        return _('Internal Call')
+        return _('internal call').title()
     try:
         obj_country = Country.objects.get(id=country_id)
         return obj_country.countryname
     except:
-        return u'unknown'
+        return _('unknown')
 
 register.filter('country_name', country_name)
