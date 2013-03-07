@@ -45,6 +45,6 @@ def country_name(country_id):
         obj_country = Country.objects.get(id=country_id)
         return obj_country.countryname
     except:
-        return _('unknown')
+        return _('unknown').title()
 
 register.filter('country_name', country_name)
