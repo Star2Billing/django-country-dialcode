@@ -4,10 +4,8 @@ import os
 import re
 
 
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
-
-README = read('README.rst')
+def read(*parts):
+    return open(os.path.join(os.path.dirname(__file__), *parts)).read()
 
 
 def parse_requirements(file_name):
@@ -37,23 +35,20 @@ setup(
     name='django-country-dialcode',
     version=country_dialcode.__version__,
     description='Django Application providing Dialcode and Countries code',
-    long_description=README,
+    long_description=read('README.rst'),
     author='Belaid Arezqui',
     author_email='areski@gmail.com',
     url='http://github.com/Star2Billing/django-country-dialcode',
-    packages=find_packages(),
+    zip_safe=False,
+    packages=find_packages(exclude=["tests", "docs"]),
     package_data={
         "": [
             "fixtures/*",
         ]
     },
-    include_package_data=True,
-    download_url='https://github.com/Star2Billing/django-country-dialcode/tarball/master',
-    zip_safe=False,
-    package_dir={'country_dialcode': 'country_dialcode'},
-    entry_points={'django.apps': 'country_dialcode = country_dialcode'},
     install_requires=parse_requirements('requirements.txt'),
     dependency_links=parse_dependency_links('requirements.txt'),
+    include_package_data=True,
     license='MIT License',
     classifiers=[
         'Development Status :: 5 - Production/Stable',

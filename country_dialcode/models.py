@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.translation import ugettext as _
-from common.intermediate_model_base_class import Model
+from country_dialcode.intermediate_model_base_class import Model
 
 prefix_type_list = ((0, _("landline").title()),
                     (1, _("mobile").title()),
@@ -16,13 +16,13 @@ class Country(Model):
     For instance : USA, 1, United States
     """
     countrycode = models.CharField(max_length=3, verbose_name=_('ISO alpha-3'),
-            help_text=_("Enter Country Code. e.g. USA - ISO alpha-3"))
+                                   help_text=_("Enter Country Code. e.g. USA - ISO alpha-3"))
     iso2 = models.CharField(verbose_name=_('ISO alpha-2'),
-            max_length=2, default='')
+                            max_length=2, default='')
     countryprefix = models.IntegerField(max_length=12, verbose_name=_('Prefix'),
-            help_text=_("Enter Country Prefix. e.g. 1"))
+                                        help_text=_("Enter Country Prefix. e.g. 1"))
     countryname = models.CharField(max_length=240, verbose_name=_('Name'),
-            help_text=_("Enter Country Name. e.g. United States"))
+                                   help_text=_("Enter Country Name. e.g. United States"))
 
     class Meta:
         db_table = 'dialcode_country'
@@ -43,13 +43,13 @@ class Prefix(Model):
     prefix = models.IntegerField(primary_key=True, help_text=_("enter prefix"))
     destination = models.CharField(max_length=180, help_text=_("enter destination"))
     country_id = models.ForeignKey(Country,
-            db_column="country_id", null=True,
-            blank=True, verbose_name=_("country code"),
-            help_text=_("select country"))
+                                   db_column="country_id", null=True,
+                                   blank=True, verbose_name=_("country code"),
+                                   help_text=_("select country"))
     carrier_name = models.CharField(max_length=180, help_text=_("enter carrier name"))
     prefix_type = models.IntegerField(choices=prefix_type_list, default=1,
-            verbose_name=_('prefix type'),
-            help_text=_("select prefix type"))
+                                      verbose_name=_('prefix type'),
+                                      help_text=_("select prefix type"))
 
     class Meta:
         db_table = 'dialcode_prefix'

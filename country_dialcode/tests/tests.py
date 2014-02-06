@@ -13,7 +13,7 @@
 
 from django.core.management import call_command
 from django.test import TestCase
-from common.utils import BaseAuthenticatedClient
+from country_dialcode.utils import BaseAuthenticatedClient
 from country_dialcode.models import Country, Prefix
 
 
@@ -30,7 +30,8 @@ class CountryDialcodeAdminView(BaseAuthenticatedClient):
         response = self.client.get("/admin/country_dialcode/country/add/")
         self.assertEqual(response.status_code, 200)
 
-        response = self.client.post('/admin/country_dialcode/country/add/',
+        response = self.client.post(
+            '/admin/country_dialcode/country/add/',
             data={'countrycode': 'ESP',
                   'iso2': 'ES',
                   'countryprefix': '34',
@@ -48,7 +49,8 @@ class CountryDialcodeAdminView(BaseAuthenticatedClient):
         response = self.client.get("/admin/country_dialcode/prefix/add/")
         self.assertEqual(response.status_code, 200)
 
-        response = self.client.post('/admin/country_dialcode/prefix/add/',
+        response = self.client.post(
+            '/admin/country_dialcode/prefix/add/',
             data={'prefix': '34',
                   'destination': 'Spain',
                   'country_id': 198,

@@ -1,2 +1,0 @@
-django-reusableapps==0.1.1
-switch2bill-common==2.8.1
