@@ -1,17 +1,14 @@
 # -*- coding: utf-8 -*-
-
 #
-# The Initial Developer of the Original Code is
-# Arezqui Belaid <info@star2billing.com>
+# :description: Django reusable application to manage Dial code of Countries
+#
+# :copyright: (c) 2011-2014 Areski Belaid and individual contributors,
+#                 All rights reserved.
+# :license:   MIT, see MIT-LICENSE.txt for more details.
 #
 
-# :copyright: (c) 2012 by Arezqui Belaid.
-# :license: MIT, see MIT-LICENSE.txt for more details.
-
-
-VERSION = (0, 5, 1, "")
-__version__ = ".".join(map(str, VERSION[0:3])) + "".join(VERSION[3:])
+__version__ = '0.5.1'  # edit also docs/source/conf.py and update requirements.txt
 __author__ = "Arezqui Belaid"
 __contact__ = "areski@gmail.com"
-__homepage__ = "https://github.com/Star2Billing/django-country-dialcode"
+__homepage__ = "http://www.areskibelaid.com"
 __docformat__ = "restructuredtext"
