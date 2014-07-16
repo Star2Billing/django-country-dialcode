@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 from country_dialcode.models import Country, Prefix
 from country_dialcode.app_label_renamer import AppLabelRenamer
 AppLabelRenamer(native_app_label=u'country_dialcode', app_label=_('Country Dialcode')).main()
