@@ -14,12 +14,6 @@ Install Django-Country-Dialcode::
     python setup.py install
 
 
-Dependencies
-------------
-
-See requirements.txt file
-
-
 Settings
 ========
 

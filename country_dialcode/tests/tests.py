@@ -2,11 +2,10 @@
 
 from django.core.management import call_command
 from django.test import TestCase
-from country_dialcode.utils import BaseAuthenticatedClient
 from country_dialcode.models import Country, Prefix
 
 
-class CountryDialcodeAdminView(BaseAuthenticatedClient):
+class CountryDialcodeAdminView(TestCase):
     """Test cases for CountryDialcode Admin Interface."""
 
     def test_admin_country_view_list(self):
@@ -66,21 +65,22 @@ class CountryDialcodeModel(TestCase):
         self.prefix = Prefix(
             prefix=34,
             destination='Spain',
-            country=self.country,
+            country_id=self.country,
             carrier_name='xyz',
             prefix_type=1
         )
+
         self.prefix.save()
         self.assertEqual(self.prefix.__unicode__(), u'34')
 
     def test_country_prefix_name(self):
         self.assertEqual(self.country.countryname, "Spain")
-        self.assertEqual(self.prefix.country_name, "Spain")
+        self.assertEqual(self.prefix.country_name(), "Spain")
 
     def teardown(self):
         self.country.delete()
         self.prefix.delete()
 
-    def test_mgt_command(self):
-        # Test mgt command
-        call_command('load_country_dialcode')
+    # def test_mgt_command(self):
+    #     # Test mgt command
+    #     call_command('load_country_dialcode')
