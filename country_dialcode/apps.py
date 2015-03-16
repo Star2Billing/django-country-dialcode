@@ -3,4 +3,5 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class CountryDialcodeConfig(AppConfig):
+    name = 'country_dialcode'
     verbose_name = _('Country Dialcode')
