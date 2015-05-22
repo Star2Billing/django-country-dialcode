@@ -4,9 +4,9 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 from country_dialcode.intermediate_model_base_class import Model
 
-prefix_type_list = ((0, _("Landline")),
-                    (1, _("Mobile")),
-                    (2, _("NGN (Non Geographic Numbers)")))
+prefix_type_list = ((0, "Landline"),
+                    (1, "Mobile"),
+                    (2, "NGN (Non Geographic Numbers)"))
 
 
 # Create your models here.
