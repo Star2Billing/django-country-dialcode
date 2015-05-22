@@ -48,7 +48,7 @@ copyright = u'2012, Arezqui Belaid (Star2Billing)'
 # built documents.
 #
 # The short X.Y version.
-version = 'v0.6.2'
+version = '0.6.3'
 # The full version, including alpha/beta/rc tags.
 release = '0.4.2'
 
