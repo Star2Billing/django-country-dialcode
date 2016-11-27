@@ -20,5 +20,5 @@ class Command(BaseCommand):
             inspect.getfile(inspect.currentframe()))
         fixture_file = script_directory + \
             '/../../fixtures/country_dialcode.json'
-        print "This fixture is going to be loaded : " + fixture_file
+        print ("This fixture is going to be loaded : " + fixture_file)
         call_command('loaddata', fixture_file)
