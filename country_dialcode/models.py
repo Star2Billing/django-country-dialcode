@@ -21,7 +21,7 @@ class Country(Model):
                                    help_text=_("Enter Country Code. e.g. USA - ISO alpha-3"))
     iso2 = models.CharField(verbose_name=_('ISO alpha-2'),
                             max_length=2, default='')
-    countryprefix = models.IntegerField(max_length=12, verbose_name=_('Prefix'),
+    countryprefix = models.IntegerField(verbose_name=_('Prefix'),
                                         help_text=_("Enter Country Prefix. e.g. 1"))
     countryname = models.CharField(max_length=240, verbose_name=_('Name'),
                                    help_text=_("Enter Country Name. e.g. United States"))
