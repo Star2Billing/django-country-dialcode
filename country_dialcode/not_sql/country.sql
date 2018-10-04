@@ -209,7 +209,7 @@ INSERT INTO `dialcode_country` (`id`, `countrycode`, `iso2`, `countryprefix`, `c
 (204, 'SWE', 'SE', 46, 'Sweden'),
 (205, 'CHE', 'CH', 41, 'Switzerland'),
 (206, 'SYR', 'SY', 963, 'Syrian Arab Republic'),
-(207, 'TWN', 'TW', 886, 'Taiwan, Province Of China'),
+(207, 'TWN', 'TW', 886, 'Taiwan'),
 (208, 'TJK', 'TJ', 992, 'Tajikistan'),
 (209, 'TZA', 'TZ', 255, 'Tanzania, United Republic Of'),
 (210, 'THA', 'TH', 66, 'Thailand'),
