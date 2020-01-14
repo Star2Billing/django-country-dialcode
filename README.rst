@@ -28,7 +28,7 @@ Usage
 In your models add the following ::
 
     dialcode = models.ForeignKey(Prefix, verbose_name=_("Destination"), null=True,
-                               blank=True, help_text=_("Select Prefix"))
+                               blank=True, help_text=_("Select Prefix"), on_delete=models.CASCADE)
 
 
 Contributing

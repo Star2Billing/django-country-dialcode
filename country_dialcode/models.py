@@ -47,7 +47,7 @@ class Prefix(Model):
     country_id = models.ForeignKey(Country,
                                    db_column="country_id", null=True,
                                    blank=True, verbose_name=_("country code"),
-                                   help_text=_("select country"))
+                                   help_text=_("select country"), on_delete=models.CASCADE)
     carrier_name = models.CharField(max_length=180, help_text=_("enter carrier name"))
     prefix_type = models.IntegerField(choices=prefix_type_list, default=1,
                                       verbose_name=_('prefix type'),
